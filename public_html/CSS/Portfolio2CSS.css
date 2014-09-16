@@ -1,0 +1,205 @@
+/* 
+    Document   : Portfolio2CSS
+    Created on : Jun 18, 2014, 9:58:23 AM
+    Author     : Daniel Lee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@media(max-width:640px){
+    h1{
+        font-size:40px;
+    }
+}
+
+@media(max-width:800px)and (min-width:640px){
+    h1{
+        font-size:60px;
+    }
+}
+@media(max-width:1024px)and (min-width:800px){
+    h1{
+        font-size:80px;
+    }
+}
+@media(max-width:1280px)and (min-width:1024px){
+    h1{
+        font-size:100px;
+    }  
+}
+
+@media(min-width:1280px){
+    h1{
+        font-size:120px;
+    }
+}
+
+#techbg{
+    background-image: url('http://www.hdwallpapers.in/walls/blue_tech_circles-wide.jpg');
+    height: 950px;
+    color: gray;
+}
+
+#techbutton{
+    background-color: gray;
+    color: orange;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#portfolio1img{
+    background: rgba(112, 112, 112, 0.9);
+    color: coral;
+}
+
+#portfolio2img{
+    color: red;
+}
+
+#aboutBody{
+    background-image: url('../images/wedding.jpg');
+    background-size: cover;
+/*    background-image: url('http://www.hdwallpapers.in/walls/blue_tech_circles-wide.jpg');*/
+}
+
+.panel-title{
+    color: orange;
+}
+
+/*.panel-heading{
+    background-color: gray;
+}*/
+
+.panel-default > .panel-heading{
+    background-color: gray;
+}
+
+/*.panel-default{
+    background-color: gray;
+}*/
+
+.panel-title:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.panel-title a{
+    text-decoration: none;
+}
+
+root { 
+    display: block;
+}
+
+body{
+    background-color:#f2f2f2;
+}
+
+#main{
+    height:10em;
+}
+
+#topbar{
+    padding-top:1em;
+    height:10em;
+    border-bottom:1px solid gainsboro;
+}
+
+#upright{
+    height:8em;
+    border-left:1px solid gainsboro;
+    padding-left:0px;
+}
+
+#uprighttext{
+    border-left:1px solid #acacac;
+    margin-top:8%;
+    padding-left:1%;
+    color:gray;
+}
+
+#upright p{
+    margin-bottom:0px;
+}
+
+#upleft{
+    height:8em;
+}
+
+#upleft h1{
+/*    padding-top:30%;*/
+    padding-left:20%;
+/*    padding-bottom:5;*/
+    height:200%;
+}
+
+#downright{
+    border-left:1px solid gainsboro;
+    color:gray;
+    padding-left:0px;
+    padding-top: 1%;
+}
+
+.title{
+    padding-left:1%;
+    border-left:1px solid #acacac;
+}
+
+.blip{
+    padding-left:1%;
+}
+
+#downleft{
+    padding-top:1em;
+    
+}
+
+#downleft img{
+    width:100%;
+}
+
+#search{
+    border-left:solid gainsboro 1px;
+    padding-top:8em;
+    padding-left:0px;
+}
+
+#search a{
+    color:gray;
+}
+
+#search li{
+    height:8em;
+}
+
+li h4{
+    display:inline;
+}
+li p{
+    display:inline;
+}
+
+.active h4{
+    color:orange;
+}
+
+.active a{
+    border-left:1px solid orange;
+}
+
+.thumbnails li{
+    height:35em;
+    
+}
+
+#downright li{
+    margin-left:0%;
+}
+
+.thumbnail img{
+    height:200px;
+    width:300px;
+}

@@ -1,0 +1,111 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project1</title>
+        <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap.min.css">
+        <link type="text/css" rel ="stylesheet" href ="CSS/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="CSS/Portfolio2CSS.css">
+    </head>
+    <body>
+        
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-10">
+                    <div id ="topbar" class ="row">
+                        <div id="upleft" class ="col-xs-2">
+                            <h1 class ="text-muted"> 01 </h1>                         
+                        </div>
+                        <div id="upright" class ="col-xs-10">
+                            <div id="uprighttext">
+                                <p><strong>Projects</strong></p>
+                                <p><small>Stuff I've done</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id ="main" class ="row">
+                        <div id="downleft" class ="col-xs-2">
+                            <img src ='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfHgcDvwA4KWQq7WuyGTFySd38uJ4v5AYH9iWtBPf69qAcKhhS' class="img-rounded">
+                        </div>
+                        <div id="carousel-example-generic" class="carousel slide col-xs-10" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="images/portfolio-1.0.png" alt="page">
+                              <div id="portfolio1img" class="carousel-caption">
+                                <h3>Portfolio 1.0</h3>
+                                    <p>Created a simple multi-page online portfolio which documents past projects and technologies used. <small>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS</a></small></p>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src='images/portfolio-2.0.png'>
+                              <div id="portfolio2img" class="carousel-caption">
+                                <h3>Portfolio 2.0</h3>
+                                    <p>Built a responsive multi-page online portfolio which documents past projects and technologies used.<small>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML, </a><a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS,</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#Bootstrap"> Bootstrap.</a></small></p>
+                              </div>
+                            </div>
+                            ...
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                        </div>
+                        <!--<div id="downright" class ="col-xs-10">
+                             <ul class='thumbnails'>
+                                <li class='col-xs-4'>
+                                    <div class='thumbnail'>
+                                        <img src="images/portfolio-1.0.png" alt="page">
+                                    </div>
+                                    <h3>Portfolio 1.0</h3>
+                                    <p>Created a simple multi-page online portfolio which documents past projects and technologies used. <small>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS</a></small></p>
+                                </li>
+                                <li class='col-xs-4'>
+                                    <div class='thumbnail'>
+                                        <img src='images/portfolio-2.0.png'>
+                                    </div>
+                                    <h3>Portfolio 2.0</h3>
+                                    <p>Built a responsive multi-page online portfolio which documents past projects and technologies used.<small>Built with: <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#HTML">HTML, </a><a href="http://localhost:8383/Portfolio2/TechnologyPage.html#CSS">CSS,</a> and <a href="http://localhost:8383/Portfolio2/TechnologyPage.html#Bootstrap"> Bootstrap.</a></small></p>
+                                </li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+                <div id="search" class="col-xs-2">
+                    <ul class="nav list-group">
+                        <li>
+                            <a href ='index.html'>
+                                <h4>00</h4>
+                                <p>ABOUT (ME)<br/>The short version</p>
+                            </a></li>
+                        <li class ="active"> <a href ='ProjectPage.html'><h4>01</h4>
+                                <p>PROJECTS<br/>Stuff I've Done</p></a></li>
+                        <li><a href='TechnologyPage.html'><h4>02</h4>
+                                <p>TECHNOLOGY<br/>What I use</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="javascripts/bootstrap.min.js"></script>
+    </body>
+</html>
